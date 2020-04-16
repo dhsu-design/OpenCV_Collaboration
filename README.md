@@ -1,6 +1,7 @@
-{\rtf1}
-
 Hi there!
+
+0. Install Unity Version 2019.2.19f1 // Android Studio and atleast your devices apk (android 8+)
+    - didnt check the requiered android sdk for the open cv lib, maybe we can reduce the required vers
 
 1. File / Build Settings
     Choose Android and press "Build" - this will create an .apk which can be stored on an android device
@@ -13,3 +14,5 @@ Hi there!
 3. Check out Examples
     Assets/ OpenCVwithUnity/ Demo
     Check out the Demo Scene in your Editor. They use unsafe code but that shouldnt be an issue.
+    
+Also created a simple Camera Controller in a sample scene, you should be able to use ur devices camera. Currently the scaling is bit off, Unitys Webcamtexture is quiet annoying but guess we'll fix that soon ;)
